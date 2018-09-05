@@ -1,8 +1,7 @@
 .grid{
 	display: grid;
 	grid-template-rows: 100px 300px 150px;
-	grid-template-columns: 100px 65% 35%;
-	width: 90vw;
+	grid-template-columns: 100px calc(65% - 65px) calc(35% - 35px);
 }
 div > div{
 	border:1px solid black;
