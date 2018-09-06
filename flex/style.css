@@ -1,0 +1,40 @@
+.flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+   text-align: center;
+   min-width: 500px;
+}
+.logo{
+  background: yellow;
+  height: 100px;
+  width: 100px;
+ }
+.menu{  
+  background: red;
+  height: 100px;
+  width: calc(100% - 100px);
+}
+.news{  
+  background: brown;
+  height: 300px;
+  width: 100px;
+}
+.list{
+  background: yellow;
+  height: 300px;
+  width: 65%;
+}
+.nav{
+  background: brown;
+  height: 450px;
+  width: calc(35% - 100px);
+  align-self:flex-start;
+}
+.footer{
+  background: orange;
+  height: 150px;
+  width: calc(65% + 100px);
+  align-self: stretch;
+transform: translateY(-150px);
+}
